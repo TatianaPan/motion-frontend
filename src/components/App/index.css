@@ -1,0 +1,22 @@
+
+.App {
+  height: 100vh;
+  display: flex;
+  object-fit: contain;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  background-image: url('../../assets/icons/landing.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
