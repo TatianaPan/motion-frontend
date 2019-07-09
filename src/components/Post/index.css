@@ -1,0 +1,82 @@
+    .post {
+        display: flex;
+        flex-direction: column;
+        width: 560px;
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 32px;
+        margin-left: 40px;
+        border-radius: 4px;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05), 0 0 1px 0 rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+    }
+
+    .userpic {
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 31px;
+        margin-right: 16px;
+        margin-bottom: 23px;
+    }
+
+    .header {
+        display: flex;
+        align-items: flex-start;
+        font-family: Roboto;
+
+    }
+
+.content {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 52px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 35px;
+    overflow: scroll;
+}
+
+.footer {
+    display: flex;
+    align-content: center;
+    margin-left: 30px;
+}
+
+.like {
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+}
+
+.share {
+    width: 22px;
+    height: 18.4px;
+    margin-left: 41px;
+    margin-right: 17px;
+}
+
+.grey-text {
+    width: 40px;
+    height: 16px;
+    /* opacity: 0.5; */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: black;
+    margin-left: 200px;
+}
+
+
