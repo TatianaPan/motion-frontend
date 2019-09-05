@@ -1,6 +1,13 @@
 const initialState = {
-    users: [],
-    user: {},
+    users: [
+        {id: '1', username: 'Jenny', first_name: 'Jennifer', last_name: 'Smith', post_count: '10'},
+        {id: '2', username: 'Jenny', first_name: 'Jennifer', last_name: 'Smith', post_count: '10'},
+        {id: '3', username: 'Jenny', first_name: 'Jennifer', last_name: 'Smith', post_count: '10'},
+        {id: '4', username: 'Jenny', first_name: 'Jennifer', last_name: 'Smith', post_count: '10'},
+        {id: '5', username: 'Jenny', first_name: 'Jennifer', last_name: 'Smith', post_count: '10'},
+        {id: '6', username: 'Jenny', first_name: 'Jennifer', last_name: 'Smith', post_count: '10'}
+    ],
+    user: {id: '3', username: 'Jenny', first_name: 'Jennifer', last_name: 'Smith', post_count: '10'},
     followees: []
 };
 
@@ -21,7 +28,7 @@ export const usersReducer = (state=initialState, action) => {
             }
 
         case 'GET_FOLLOWEES':
-            console.log('from followe reducer')
+            
             return {
                 ...state,
                 followees: action.payload

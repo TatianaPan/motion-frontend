@@ -53,7 +53,7 @@ import './index.css';
                     placeholder='Password' 
                     onChange={ this.handleUserPassword }/>
 
-                    <button className='signin'>Sign in</button>
+                    <button className='signin-button'>Sign in</button>
                 </form>
             </div>
         )

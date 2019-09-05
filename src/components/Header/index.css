@@ -1,19 +1,58 @@
+nav .brand-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 11%;
+}
+
 .brand-logo {
     margin-left: 40px;
+    display: flex;
+    
+    align-items: center;
     
 }
 
 .logo {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     width: 40px;
     height: 40px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .nav-wrapper {
     background-image: linear-gradient(102deg, #c468ff, #6e91f6);
+    display: flex;
+    justify-content: space-between;
 }
 
-.logout {
+.logout-button {
+    width: 120px;
+    height: 40px;
+    /* opacity: 0.2; */
     border-radius: 30px;
+    box-shadow: 0 10px 30px 0 var(--black-7);
+    /* border: solid 1px #000000; */
+    background-color: whitesmoke;
+    color: #6e91f6;
+    cursor: pointer;
+}
+
+
+#nav-mobile {
+    display: flex;
+    
+}
+
+.header-link {
+    font-weight: 300;
+}
+
+nav ul a:hover {
+    border: none;
+}
+
+nav ul a:focus {
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
 }

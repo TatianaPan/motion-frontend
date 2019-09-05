@@ -4,6 +4,7 @@ import {getUsers} from '../../store/actions/usersAction';
 import Header from '../Header';
 import User from '../User';
 import {getFollowing} from '../../store/actions/usersAction';
+import './index.css'
 
 
 class Users extends Component {

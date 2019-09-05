@@ -33,15 +33,16 @@ class LikedPost extends Component {
         return (
             <div className='post'>
                 <header className='header'>
-                    <img src={pic1} className="userpic"/>
+                    <img src={pic1} alt="userpic"/>
                     <p className="name">{this.props.post.user.username}<br/>{this.props.post.created}</p>
                 </header> 
                 <article className='content'>{this.props.post.content}</article>
                 <footer className='footer'>
                     {/* <img src={like} className="like"/> */}
-                    <a className={this.state.liked ? "btn-floating  purple darken-1 like" : "btn-floating  purple lighten-5 like" } onClick={() => this.handleLike(this.props.post.id)}><i className="material-icons">favorite</i></a>
+                    <button className={this.state.liked ? "btn-floating  purple darken-1 like" : "btn-floating  purple lighten-5 like" }
+                     onClick={() => this.handleLike(this.props.post.id)}><i className="material-icons">favorite</i></button>
                     <p className="text">Like</p>
-                    <img src={share} className="share"/>
+                    <img src={share} className="share" alt='arrow' />
                     <p id="share" className="text">Share</p>
                     <p className="grey-text">{this.props.post.like_count} likes</p>
                 </footer>

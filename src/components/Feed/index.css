@@ -1,21 +1,16 @@
-.feed {
-    background-color: #eeeef1af;
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-}
-
-.post {
+.feed-wrapper {
     display: flex;
     flex-direction: column;
-    width: 560px;
-    height: 231px;
-    margin-top: 40px;
-    margin-bottom: 32px;
-    /* margin-left: 40px; */
-    border-radius: 4px;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05), 0 0 1px 0 rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
+    justify-content: center;
+    background-color: #eeeef1af;
+    align-items: center
+}
+
+.feed {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    
 }

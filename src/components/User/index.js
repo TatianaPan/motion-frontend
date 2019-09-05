@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import userpic from '../../assets/users/jennifer.png';
 import {connect} from 'react-redux';
 import { withRouter, Link } from "react-router-dom";
+import './index.css'
 
 class User extends Component {
 
@@ -9,9 +10,9 @@ class User extends Component {
         
         return (
             
-            <div className="card horizontal">
+            <div id='user-profile' className="card horizontal">
                 <div className="card-image">
-                    <img src={userpic}/>
+                    <img src={userpic} alt='userpic' />
                 </div>
                 <div className="card-stacked">
                     <div className="card-content">
@@ -21,14 +22,6 @@ class User extends Component {
                     </div>
                     <div className="card-action">
                     <Link to={`/users/${this.props.user.id}`}>Learn more</Link>
-                    {/* {this.props.followees.map(user => {
-                        if (user.id === this.props.user.id) {
-                            return <button>Unfollow</button>
-                        } else {
-                            return  <button>Follow</button>
-                        }
-                        
-                    })} */}
                     
                     
                     </div>

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { type } from 'os';
+//import { type } from 'os';
 
 const URL = `https://motion.propulsion-learn.ch/backend`;
 
@@ -26,6 +26,5 @@ export const getMyProfile = () => async (dispatch, getState) => {
     const profile = response.data;
     await dispatch(getMe(profile));
 
-    console.log(profile);
     return response; 
 }
