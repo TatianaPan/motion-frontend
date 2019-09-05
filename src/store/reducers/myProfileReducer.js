@@ -5,7 +5,7 @@ const initialState = {
 };
 
 export const myProfileReducer = (state = initialState, action) => {
-    console.log('from myprofile')
+   
     switch (action.type) {
         case 'GET_ME':
             

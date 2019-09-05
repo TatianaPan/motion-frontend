@@ -39,7 +39,7 @@ class UserProfile extends Component {
                 <div className='container'>
                     <div className="card horizontal">
                         <div className="card-image">
-                            <img src={userpic}/>
+                            <img src={userpic} alt='userpic' />
                         </div>
                         <div className="card-stacked">
                             <div className="card-content">
@@ -49,7 +49,17 @@ class UserProfile extends Component {
                             <p>Post count: {this.props.user.post_count}</p>
                             </div>
                             <div className="card-action">
-                                <a className={this.state.followed ? "waves-effect btn purple darken-1" : "waves-effect btn purple lighten-5"} onClick={() => this.handleFollow(this.props.user.id)}>Follow/Unfollow</a>
+                                {/* <a className={this.state.followed ? 
+                                    "waves-effect btn purple darken-1" : "waves-effect btn purple lighten-5"} 
+                                    
+                                    onClick={() => this.handleFollow(this.props.user.id)}>Follow/Unfollow</a> */}
+                                
+                                {this.state.followed ? <button className="waves-effect btn purple darken-1" 
+                                    
+                                    onClick={() => this.handleFollow(this.props.user.id)}>Unfollow</button> : 
+                                    <button className="waves-effect btn purple lighten-5"
+                                        
+                                        onClick={() => this.handleFollow(this.props.user.id)}>Follow</button>}
                             </div>
                         </div>
                     </div>

@@ -6,7 +6,7 @@
 }
 
 .left {
-  width: 40%;
+  width: 50%;
   display: flex;
   background-image: url('../../assets/icons/landing.png');
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 .right {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;

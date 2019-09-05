@@ -21,7 +21,7 @@ class MyProfile extends Component {
                 <div className='container'>
                     <div className="card horizontal">
                         <div className="card-image">
-                            <img src={userpic}/>
+                            <img src={userpic} alt='userpic' />
                         </div>
                         <div className="card-stacked">
                             <div className="card-content">

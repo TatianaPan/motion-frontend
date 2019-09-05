@@ -1,7 +1,7 @@
 import React from 'react';
 import Login from '../../containers/Login';
 import './index.css';
-import motion from '../../assets/icons/landing.png';
+//import motion from '../../assets/icons/landing.png';
 
 function App() {
   

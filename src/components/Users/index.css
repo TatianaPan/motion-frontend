@@ -1,0 +1,10 @@
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+}
+
+.card {
+    margin: 3rem 3% 0 3%; 
+}

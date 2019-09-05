@@ -31,7 +31,7 @@ class Followees extends Component {
                         
                         return <div className="card horizontal" key={user.id}>
                         <div className="card-image">
-                            <img src={userpic}/>
+                            <img src={userpic} alt='userpic' />
                         </div>
                         <div className="card-stacked">
                             <div className="card-content">
@@ -41,7 +41,7 @@ class Followees extends Component {
                             <p>Last name: {user.last_name}</p>
                             </div>
                             <div className="card-action">
-                            <a className="waves-effect btn purple darken-1" onClick={() => this.handleUnFollow(user.id)}>Unfollow</a>
+                            <button className="waves-effect btn purple darken-1" onClick={() => this.handleUnFollow(user.id)}>Unfollow</button>
                             </div>
                         </div>
                     </div> 
