@@ -1,5 +1,42 @@
-### Motion - Social Network
+# Motion - Social Network
 
+Frontend for social network platform. This project I have done during full-stack development bootcamp.
+This was a 4 days project and the goal was to achieve as much as we can.  
+
+## Features
+
+### Home
+
+Path: / It should render:
+
+* One form to log in
+
+* One form to register
+
+If you try to go here and you are already logged in it should redirect to the Feed
+
+### Feed
+
+Path: /feed Render all the posts from the users that the current user is following. User should be able to create a posts from here.
+
+### User Details
+
+Path: /users/:userId Render the user information of the user plus his/her blitzs. Current user should be able to Follow or Unfollow with on click.
+
+### Likes
+
+Every time that you show a post, you should show whether the post it is liked by the current user. Also, the user should be able to like or unlike with one single button.
+
+### Likes List
+
+Path: /likes List of all posts that the User likes.
+
+### Users
+
+Path: /users Renders a list of Users. You should be able to Follow and Unfollow with a single click.
+
+![alt text](./screen1.png)
+![alt text](./screen2.png)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
